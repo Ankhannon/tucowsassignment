@@ -1,0 +1,95 @@
+/* CSS for Assignment */
+body {
+  font-family: "Lucida Console";
+  background-color: rgba(222, 222, 222, 0.64);
+}
+
+button:focus {
+  outline: 0;
+}
+
+#bluetriangle {
+width: 0;
+height: 0;
+border-style: solid;
+border-width: 200px 200px 0 0;
+border-color: #57a8ff transparent transparent transparent;
+position: absolute;
+z-index: -1;
+top: 0;
+left: 0;
+}
+
+#whitetriangle {
+width: 0;
+height: 0;
+border-style: solid;
+border-width: 210px 210px 0 0;
+border-color: #ffffff transparent transparent transparent;
+position: absolute;
+z-index: -2;
+top: 0;
+left: 0;
+}
+
+#cornertitle {
+-webkit-transform: rotate(-45deg);
+-moz-transform: rotate(-45deg);
+white-space: nowrap;
+width: 300px;
+height: 50px;
+color: white;
+font-size: 25px;
+position: absolute;
+}
+
+#blueline {
+  height: 3px;
+  width: 100%;
+  background-color: #57a8ff;
+}
+
+#contents {
+  width: 200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.options {
+  width: 350px;
+  bottom: 0;
+  right: 0;
+  padding: 20px;
+  position: fixed;
+}
+
+.option {
+  width: 200px;
+  height: 80px;
+  border: 3px solid rgb(73, 181, 221);
+  background-color: white;
+  margin: 20px;
+  border-radius: 10px;
+  font-size: 30px;
+  padding: 10px;
+  float: right;
+}
+
+.sort {
+  float: left;
+  padding-top: 40%;
+}
+
+.highlighted {
+  background-color: rgb(73, 181, 221);
+}
+
+#list div {
+  width: 100px;
+  height: 40px;
+  background-color: white;
+  padding: 20px;
+  margin: 30px;
+  font-size: 20px;
+  border-radius: 10px;
+}

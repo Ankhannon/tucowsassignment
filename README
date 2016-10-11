@@ -1,0 +1,40 @@
+This is a test assignment.
+Any solutions to this assignment found on the internet will be disqualified. 
+
+It requires NodeJS and NPM. 
+
+To start the server once all node modules are installed: ./bin/dev_startup.js
+
+The goal of this assignment is to implement a simple list presentation and sorting page. It is a responsive design.
+Please see the two mockups in the mockups directory.
+
+You will need to perform three ajax calls to 
+'/api/call1', '/api/call2', and '/api/call3'.
+These calls are simulated in ajax.js. This file should not be modified.
+
+Each call will return a data object with an array. 
+Remove all duplicates and place the result on the left side as per mockup.
+
+No images should be included in your final output. SVGs are ok.
+
+To the right of the list should be three buttons. Each bottom will sort the list in a different way.
+1. Alphabetically
+2. By character Length
+3. By numerical representation (the list is numbers as words, so sort the words as numbers).
+
+For mobile the actions are in the hamburger menu accessed from the top right.
+
+If a button is clicked a second time, reverse the order.
+
+Each button should indicate that it is the active sort state (except when the page first loads). The design of this state is up to you.
+
+Your code should reside within the src/ directory.
+You can split your code up into multiple files if you wish.
+No other libraries are to be used (vanilla javascript only).
+
+BONUS: Add unit tests to your code using a unit testing framework of your choice.
+
+Once complete. Please zip or tar up your completed assignment (without the node_modules directory) and send it back to us.
+
+
+
